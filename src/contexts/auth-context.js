@@ -3,13 +3,7 @@ import { initializeApp } from 'firebase/app';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDowbRzEO_cEC8plUPaLos3W12b2HIIhQM",
-    authDomain: "database-56b98.firebaseapp.com",
-    databaseURL: "https://database-56b98-default-rtdb.firebaseio.com",
-    projectId: "database-56b98",
-    storageBucket: "database-56b98.appspot.com",
-    messagingSenderId: "174316458567",
-    appId: "1:174316458567:web:7c287aa1e174524bfb9762"
+    // Firebase Config details
 };
 
 const app = initializeApp(firebaseConfig);
