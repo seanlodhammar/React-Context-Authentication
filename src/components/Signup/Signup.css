@@ -1,0 +1,10 @@
+.Signup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    background: rgb(193,40,112);
+    background: linear-gradient(29deg, rgba(193,40,112,1) 23%, rgba(48,173,254,1) 100%);
+}

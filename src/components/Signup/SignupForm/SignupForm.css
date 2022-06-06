@@ -1,0 +1,71 @@
+.SignupForm {
+    display: flex;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#formtext {
+    position: absolute;
+    top: 40px;
+}
+
+.usernamediv {
+    position: absolute;
+    left: 40px;
+    top: 200px;
+}
+
+#usernameinput {
+    position: absolute;
+}
+
+#usernamelabel {
+    position: absolute;
+    top: -30px;
+}
+
+.passworddiv {
+    position: absolute;
+    left: 40px;
+    top: 330px;
+}
+
+#passwordinput {
+    position: absolute;
+}
+
+#passwordlabel {
+    position: absolute;
+    top: -30px;
+}
+
+#submitbtn {
+    margin-top: 290px;
+}
+
+.loginOption {
+    position: absolute;
+    top: 460px;
+    left: 240px;
+}
+
+#invalidformtext {
+    position: absolute;
+    top: 360px;
+}
+
+#signUp {
+    position: absolute;
+    width: 140px;
+    left: -33px;
+    top: 50px;
+}

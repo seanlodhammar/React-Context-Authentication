@@ -1,0 +1,53 @@
+.Authenticated-Wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.Authenticated {
+    display: flex;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 50%;
+    transform: translateY(-60%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadein 1s;
+}
+
+.Authenticated h2 {
+    position: absolute;
+    top: 100px;
+}
+
+.Authenticated button {
+    position: absolute;
+    top: 180px;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 14px;
+    transition: 1s;
+    border: pink 2px solid;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0.1;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-60%);
+    }
+}
